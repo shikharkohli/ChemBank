@@ -19,7 +19,7 @@ export class HeaderMenuComponent {
     this.text = 'Hello World';
   }
 
-  dosanddonts() {
+  goToDosAndDonts() {
       console.log('dos and donts clicked');
   }
 
