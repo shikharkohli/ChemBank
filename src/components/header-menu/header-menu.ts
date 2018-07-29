@@ -19,7 +19,8 @@ export class HeaderMenuComponent {
     this.text = 'Hello World';
   }
 
-  goToDosAndDonts() {
+  goToDosAndDonts(params) {
+      if(!params) params = {};
       console.log('dos and donts clicked');
   }
 
