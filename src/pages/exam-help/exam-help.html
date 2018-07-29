@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar>
+       
+    <ion-nav id="nav" #content [root]="page1"></ion-nav>
+ 
+    <ion-title>
+      ExamHelp
+    </ion-title>
+ <ion-buttons left>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name='menu'></ion-icon>
+      </button>
+    </ion-buttons> 
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding id="page1" style="background-color:#F1F1F1;">
+  <ion-list id="examHelp-list1">
+    <ion-item color="none" on-click="goToReadyToStudy()" id="examHelp-list-item4">
+      Ready To Study
+    </ion-item>
+    <ion-item color="none" on-click="goToSymptomsOfExamStress()" id="examHelp-list-item5">
+      Symptoms of Exam Stress
+    </ion-item>
+    <ion-item color="none" on-click="goToTimeManagementTips()" id="examHelp-list-item8">
+      Time Management Tips
+    </ion-item>
+    <ion-item color="none" on-click="goToExamTime()" id="examHelp-list-item9">
+      Exam Time
+    </ion-item>
+    <ion-item color="none" on-click="goToPostResultStress()" id="examHelp-list-item14">
+      Post Result Stress
+    </ion-item>
+    <ion-item color="none" on-click="goToYouTubeLinks()" id="examHelp-list-item15">
+      YouTube Links
+    </ion-item>
+  </ion-list>
+</ion-content>
